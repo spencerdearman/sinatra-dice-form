@@ -1,0 +1,21 @@
+<!-- /views/home.erb -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home Page</title>
+  </head>
+
+  <body>
+    <h1>Dice Roll</h1>
+    <form action="/process_roll">
+      <label for="dice">Number of dice to roll?</label>
+      <input id="dice" name="dice">
+
+      <label for="sides">How many sides per die?</label>
+      <input id="sides" name="sides">
+
+      <button>Roll!</button>
+    </form>
+  </body>
+</html>
